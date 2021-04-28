@@ -3,6 +3,8 @@
 namespace Daaner\TurboSMS;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
+use Illuminate\Support\Stringable;
 
 class TurboSMSServiceProvider extends ServiceProvider
 {
@@ -13,6 +15,10 @@ class TurboSMSServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Str::macro("of", function ($string) {
+            return new Stringable($string);
+        });
+
         $this->publishes([
             __DIR__.'/../config/turbosms.php' => config_path('turbosms.php'),
         ], 'config');
