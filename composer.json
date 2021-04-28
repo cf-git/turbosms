@@ -20,6 +20,9 @@
     },
     "autoload": {
         "psr-4": {
+            "Illuminate\\Support\\Facades\\": "illuminate-patch/Illuminate/Support/Facades",
+            "Illuminate\\Support\\": "illuminate-patch/Illuminate/Support",
+            "Illuminate\\Http\\Client\\": "illuminate-patch/Illuminate/Http/Client",
             "Daaner\\TurboSMS\\Facades\\": "src/Facades",
             "Daaner\\TurboSMS\\": "src"
         }

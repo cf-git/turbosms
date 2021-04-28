@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static array getItemsStatus($messageId)
  * @method static array getResponse($url, $body)
  * @method static array sendMessages($recipients, $text, $type = null)
- * @method static array getResponse($url, $body)
+ * _method static array getResponse($url, $body)
  *
  * @method static void setApi($api)
  * @method static void setSMSSender($smsSender)
