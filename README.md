@@ -1,3 +1,7 @@
+# This version is downgraded to Laravel 5.4+ and PHP 7.0+
+## Please use official package [https://github.com/daaner/turbosms](https://github.com/daaner/turbosms)
+---------------------
+
 # Laravel TurboSMS API gateway
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daaner/turbosms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/daaner/turbosms/?branch=master)
